@@ -11,7 +11,7 @@
     display: grid;
     /*grid-template-columns: 1fr 1fr;*/
     /*2*/
-    /*grid-template-columns: 1fr 1fr 1fr;*/
+    grid-template-columns: 1fr 1fr 1fr;
     /*grid-template-columns: 20% 1fr 1fr;*/
     /*grid-template-columns: 200px 1fr 1fr;*/
     /*grid-template-columns: auto 1fr 1fr;*/
@@ -23,11 +23,11 @@
     grid-auto-rows: minmax(50px, auto);
 
     /*7c - create a grid based on number of columns you have and how many rows you want*/
-    grid-template-areas:
-            "title title"
-            "header header"
-            "sidebar content"
-            "footer footer";
+    /*grid-template-areas:*/
+            /*"title title"*/
+            /*"header header"*/
+            /*"sidebar content"*/
+            /*"footer footer";*/
 
     /*8 - change layout based on items in template area */
     /*grid-template-areas:*/
@@ -60,22 +60,22 @@
     /*grid-column: span 2;*/
 
     /*7b*/
-    grid-area: title;
+    /*grid-area: title;*/
 }
 
 /*7a - easier way to organize columns and rows without numbers*/
-.header {
-    grid-area: header;
-}
+/*.header {*/
+    /*grid-area: header;*/
+/*}*/
 
-.sidebar {
-    grid-area: sidebar;
-}
+/*.sidebar {*/
+    /*grid-area: sidebar;*/
+/*}*/
 
-.content {
-    grid-area: content;
-}
+/*.content {*/
+    /*grid-area: content;*/
+/*}*/
 
-.footer {
-    grid-area: footer;
-}
+/*.footer {*/
+    /*grid-area: footer;*/
+/*}*/
